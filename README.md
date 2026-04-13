@@ -4,7 +4,7 @@ Give AI agents persistent memory and project tracking backed by a self-hosted [V
 
 Instead of stuffing yesterday's context back into every prompt, the agent stores facts once and queries only what it needs. Memories survive across sessions. Token costs drop. Multiple agents (local and remote) can share the same store.
 
-> Go port of [acidvegas/vikunja-mcp](https://github.com/acidvegas/vikunja-mcp). Original Python implementation and full design rationale live there.
+> Go port of [acidvegas/vikunja-mcp](https://github.com/Crank-Git/vikunja-mcp). Original Python implementation and full design rationale live there.
 
 ## Requirements
 
@@ -17,7 +17,7 @@ Instead of stuffing yesterday's context back into every prompt, the agent stores
 ### Option A — `go install` (permanent, recommended)
 
 ```
-go install github.com/acidvegas/vikunja-mcp@latest
+go install github.com/Crank-Git/vikunja-mcp@latest
 ```
 
 Then add to Claude Code:
@@ -35,13 +35,13 @@ claude mcp add --transport stdio --scope user vikunja \
 claude mcp add --transport stdio --scope user vikunja \
   --env VIKUNJA_URL=https://your-vikunja-host \
   --env VIKUNJA_TOKEN=tk_yourtoken \
-  -- go run github.com/acidvegas/vikunja-mcp@latest
+  -- go run github.com/Crank-Git/vikunja-mcp@latest
 ```
 
 ### Option C — build from source
 
 ```
-git clone https://github.com/acidvegas/vikunja-mcp
+git clone https://github.com/Crank-Git/vikunja-mcp
 cd vikunja-mcp
 go build -o vikunja-mcp .
 ```

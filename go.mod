@@ -1,4 +1,4 @@
-module github.com/acidvegas/vikunja-mcp
+module github.com/Crank-Git/vikunja-mcp
 
 go 1.23.2
 

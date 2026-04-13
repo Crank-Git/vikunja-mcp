@@ -1,5 +1,5 @@
 // Vikunja MCP - Go port
-// github.com/acidvegas/vikunja-mcp
+// github.com/Crank-Git/vikunja-mcp
 
 package main
 
