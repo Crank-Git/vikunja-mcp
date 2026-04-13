@@ -1,8 +1,0 @@
-# Vikunja MCP - Developed by acidvegas in Python (https://git.acid.vegas)
-# vikunja/mcp/requirements.txt
-
-aiohttp>=3.9
-mcp>=1.0
-python-dotenv>=1.0
-starlette>=0.37
-uvicorn>=0.30
